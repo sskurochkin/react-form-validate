@@ -1,0 +1,31 @@
+
+.message {
+  position: relative;
+  padding: 10px;
+  background-color: #d8d8d8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: #000;
+    cursor: pointer;
+  }
+
+}
