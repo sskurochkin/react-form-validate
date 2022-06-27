@@ -20,7 +20,7 @@ const App = () => {
 
 
 	const fetchForm = async () => {
-		await fetch('https://jsonplaceholder.typicode.co/pos', {
+		await fetch('https://jsonplaceholder.typicode.com/posts', {
 			method: 'POST',
 			body: JSON.stringify({
 				title: 'formData',
